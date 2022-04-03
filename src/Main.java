@@ -1,14 +1,12 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         System.out.println("Перечень консольных команд для вывода соотвествующих отчётов в файл");
         System.out.println("source_rep - выводит отчёт по затратам с каждого источника платежа,");
         System.out.println("cat_rep - выводит отчёт по затратам на каждую категорию товаров и услуг,");
         System.out.println("sub_rep - выводит отчёт по затратам на каждую подкатегорию товаров и услуг,");
         System.out.println("all_rep - выводит все представленные выше отчёты" + "\n");
-
 
         Scanner scanner;
         String command;
